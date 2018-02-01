@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.dim.topbar.MainActivity">
+
+    <com.dim.topbar.DimTopBarView
+        android:id="@+id/topbar1"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        app:appType="1"
+        app:leftColor="@color/buy_red"
+        app:leftText="@string/icon_topbar_back"
+        app:rightLeftText="@string/icon_topbar_msg"
+        app:rightText="@string/icon_topbar_me"
+        app:titleText="title" />
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="50dip" />
+
+    <com.dim.topbar.DimTopBarView
+        android:id="@+id/topbar2"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        app:appType="2"
+        app:leftColor="@color/buy_red"
+        app:leftText="@string/icon_topbar_back"
+        app:rightLeftText="@string/icon_topbar_msg"
+        app:rightText="@string/icon_topbar_me"
+        app:titleText="title" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="match_parent"
+        android:layout_height="50dip" />
+
+    <com.dim.topbar.DimTopBarView
+        android:id="@+id/topbar3"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        app:appType="3"
+        app:leftColor="@color/buy_red"
+        app:leftText="@string/icon_topbar_back"
+        app:rightLeftText="@string/icon_topbar_msg"
+        app:rightText="@string/icon_topbar_me"
+        app:titleText="title" />
+
+    <TextView
+        android:id="@+id/name3"
+        android:layout_width="match_parent"
+        android:layout_height="50dip" />
+
+    <com.dim.topbar.DimTopBarView
+        android:id="@+id/topbar4"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        app:appType="3"
+        app:barBgColor="@color/com_bg_mm"
+        app:commonColor="@color/red"
+        app:leftColor="@color/blue"
+        app:leftText="@string/icon_topbar_back"
+        app:rightLeftColor="@color/blue"
+        app:rightLeftText="@string/icon_topbar_msg"
+        app:rightText="@string/icon_topbar_me"
+        app:titleColor="@color/blue"
+        app:titleText="title" />
+
+    <TextView
+        android:id="@+id/name4"
+        android:layout_width="match_parent"
+        android:layout_height="50dip" />
+
+    <com.dim.topbar.DimTopBarView
+        android:id="@+id/topbar5"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        app:appType="3"
+        app:barBgColor="@color/buy_red"
+        app:commonColor="@color/red"
+        app:leftText="@string/icon_topbar_back"
+        app:rightLeftColor="@color/com_bg_mm"
+        app:rightLeftText="@string/icon_topbar_msg"
+        app:rightText="@string/icon_topbar_me"
+        app:titleColor="@color/green"
+        app:titleText="title" />
+</LinearLayout>

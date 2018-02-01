@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DimTopbar</string>
+    <string name="icon_topbar_back">&#xe6a8;</string>
+    <string name="icon_topbar_msg">&#xe616;</string>
+    <string name="icon_topbar_share">&#xe698;</string>
+    <string name="icon_topbar_search">&#xe691;</string>
+    <string name="icon_topbar_home">&#xe68e;</string>
+    <string name="icon_topbar_self">&#xe68b;</string>
+    <string name="icon_topbar_me">&#xe68b;</string>
+    <string name="icon_topbar_new">&#xe60f;</string>
+    <string name="icon_topbar_modify">&#xe609;</string>
+    <string name="icon_topbar_close">&#xe60b;</string>
+</resources>

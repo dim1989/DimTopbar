@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/klm_topbar_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <com.dim.topbar.DimEduSohoIconTextView
+        android:id="@+id/klm_topbar_title"
+        android:layout_width="200dip"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/icon_topbar_back"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/klm_topbar_title">
+
+        <com.dim.topbar.DimEduSohoIconTextView
+            android:id="@+id/klm_topbar_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:paddingRight="5dip"
+            android:singleLine="true"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <com.dim.topbar.DimEduSohoIconTextView
+        android:id="@+id/klm_topbar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:minWidth="@dimen/dp_50"
+        android:singleLine="true"
+        android:textColor="@color/white" />
+
+    <com.dim.topbar.DimEduSohoIconTextView
+        android:id="@+id/klm_topbar_right_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/klm_topbar_right"
+        android:gravity="right|center_vertical"
+        android:minWidth="@dimen/dp_50"
+        android:textColor="@color/white" />
+</RelativeLayout>

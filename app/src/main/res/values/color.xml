@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#DD137B</color>
+    <color name="colorAccent">#DD137B</color>
+
+    <color name="klm_red">#DD137B</color>
+    <color name="klm_red_100">#FFDD137B</color>
+    <color name="klm_red_50">#7ADD137B</color>
+    <color name="klm_999">#999999</color>
+    <color name="klm_000">#000000</color>
+    <color name="klm_666">#666666</color>
+    <color name="klm_333">#333333</color>
+    <color name="klm_FFF">#FFFFFF</color>
+    <color name="klm_3D4855">#3D4855</color>
+    <color name="klm_444954">#444954</color>
+    <color name="klm_455366">#455366</color>
+    <color name="klm_ccc">#CCCCCC</color>
+    <color name="klm_2A">#2A2A2A</color>
+    <color name="klm_F5">#F5F5F5</color>
+    <color name="klm_97">#979797</color>
+    <color name="klm_3F">#3F3F3F</color>
+    <color name="klm_EA">#EAEAEA</color>
+    <color name="klm_E5">#E5E5E5</color>
+    <color name="klm_598FFB">#598FFB</color>
+    <color name="klm_38374D">#38374D</color>
+    <color name="klm_00A89D">#00A89D</color>
+    <color name="klm_FF4E65">#FF4E65</color>
+    <color name="link_color">#2B6FBD</color>
+    <color name="klm_65696F">#65696F</color>
+    <color name="klm_3E4855">#3E4855</color>
+    <color name="klm_6B84A1">#6B84A1</color>
+    <color name="klm_FF6E3C">#FF6E3C</color>
+    <color name="klm_FFE8E8">#FFE8E8</color>
+    <color name="klm_F36E75">#F36E75</color>
+    <color name="klm_325073">#325073</color>
+    <color name="klm_384450">#384450</color>
+    <color name="klm_969696">#969696</color>
+    <color name="klm_touming">#00000000</color>
+    <color name="klm_686868">#686868</color>
+    <color name="klm_7e7e7e">#7e7e7e</color>
+    <color name="klm_68a3fb">#1968a3fb</color>
+
+    <color name="gray">#FF808080</color>
+    <color name="green">#66CC9A</color>
+    <color name="orange">#FF8B2E</color>
+    <color name="darkblue">#FF00008b</color>
+    <color name="blue">#FF0000ff</color>
+    <color name="red">#FFDC5648</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_10">#19ffffff</color>
+    <color name="white_60">#98ffffff</color>
+    <color name="white_40">#66ffffff</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_60">#98000000</color>
+    <color name="com_bg_klm">#1A222B</color>
+    <color name="com_bg_mm">#FF68A3FB</color>
+    <color name="com_line">#E5E5E5</color>
+    <color name="transparent_black">#94333232</color>
+    <color name="touming">#00000000</color>
+    <color name="wheel_timebtn_nor">#54a3fa</color>
+    <color name="wheel_timebtn_pre">#CCCCCC</color>
+
+
+    <color name="light_blue">#87d0f2</color>
+    <color name="light_gray">#99a4b7</color>
+    <color name="buy_red">#DD137B</color>
+    <color name="buy_red_click">#CB1171</color>
+    <color name="base_top_layer_bg">#F5F5F5</color>
+    <color name="bg_gray">#ecedef</color>
+    <color name="black">#000000</color>
+
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#384451</color>
+    <color name="blue_btn_bg_pressed_color">#212830</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+
+    <color name="edit_user_info_name_color">#FF333333</color>
+    <color name="logout_color">#FFE44E84</color>
+
+    <color name="target_sales_color">#7E7E7E</color>
+    <color name="target_sales_color_value">#FFFB6D68</color>
+    <color name="policy_backgroud_color">#FFEBEBEB</color>
+    <color name="report_btn_comeplete">#FF66A3FB</color>
+</resources>
