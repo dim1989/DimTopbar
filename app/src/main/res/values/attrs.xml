@@ -2,24 +2,39 @@
 <resources>
     <!-- 通用的TopBar -->
     <declare-styleable name="Topbar">
+        <!-- 设置背景色 -->
         <attr name="barBgColor" format="color|reference"/>
+        <!-- 设置标题内容 -->
         <attr name="titleText" format="string|reference"/>
+        <!-- 设置标题大小 -->
         <attr name="titleSize" format="dimension|reference"/>
+        <!-- 设置标题颜色 -->
         <attr name="titleColor" format="color|reference"/>
-
+        <!-- 设置左边内容 -->
         <attr name="leftText" format="string|reference"/>
+        <!-- 设置右边内容 -->
         <attr name="rightText" format="string|reference"/>
+        <!-- 设置右边靠左的内容 -->
         <attr name="rightLeftText" format="string|reference"/>
+        <!-- 设置通用的icon的大小 -->
         <attr name="iconSize" format="dimension|reference"/>
+        <!-- 设置通用的icon的颜色 -->
         <attr name="iconColor" format="color|reference"/>
-        <!-- 当前的App类型，1为卡乐猫，2为喵秘 -->
+        <!-- 当前的类型，类型1表示顶部背景默认为黑色，字体颜色是白色的，2为蓝底黑字；3为白底黑字 -->
         <attr name="appType" format="integer|reference"/>
+        <!-- 设置左边内容的颜色 -->
         <attr name="leftColor" format="color|reference"/>
+        <!-- 设置右边内容的颜色 -->
         <attr name="rightColor" format="color|reference"/>
+        <!-- 设置右边靠左的内容颜色 -->
         <attr name="rightLeftColor" format="color|reference"/>
+        <!-- 设置左边内容大小 -->
         <attr name="leftSize" format="dimension|reference"/>
+        <!-- 设置右边内容大小 -->
         <attr name="rightSize" format="dimension|reference"/>
+        <!-- 设置右边靠左内容大小 -->
         <attr name="rightLeftSize" format="dimension|reference"/>
+        <!-- 设置通用字体颜色 -->
         <attr name="commonColor" format="color|reference"/>
     </declare-styleable>
 

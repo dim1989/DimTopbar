@@ -18,8 +18,8 @@ import org.jetbrains.anko.uiThread
 
 
 /**
- * 通用的卡乐猫的头部导航栏，包括了标题，左边一个按钮，右边一个按钮，右边按钮的左边还有一个按钮；
- * XML中使用的时候，需要配置一些属性址，如：app:appType="1"，类型1表示卡乐猫国际版的，顶部背景默认为黑色，2为喵秘的；3为卡乐猫国内版本
+ * 通用的头部导航栏，包括了标题，左边一个按钮，右边一个按钮，右边按钮的左边还有一个按钮；
+ * XML中使用的时候，需要配置一些属性址，如：app:appType="1"，类型1表示顶部背景默认为黑色，字体颜色是白色的，2为蓝底黑字；3为白底黑字
  * 其他具体属性见attes-Topbar；
  * 如果需要监听点击事件，
  * Activity等调用的地方，需要实现一个KLMTopBarContract.IKLMTopBarView，为按钮的点击事件，
@@ -32,11 +32,11 @@ import org.jetbrains.anko.uiThread
 class DimTopBarView : RelativeLayout {
 
     /**
-     * ，类型1表示卡乐猫国际版的，顶部背景默认为黑色，2为喵秘的；3为白底黑字
+     * 类型1表示顶部背景默认为黑色，字体颜色是白色的，2为蓝底黑字；3为白底黑字
      */
     companion object {
-        val TOP_BAR_TYPE_KLM = 1
-        val TOP_BAR_TYPE_MM = 2
+        val TOP_BAR_TYPE_BLACK = 1
+        val TOP_BAR_TYPE_BLUE = 2
         val TOP_BAR_TYPE_KLM_WHITE = 3
     }
 
